@@ -1,0 +1,30 @@
+.right{
+    flex:0.3;
+    margin-top: 47px;
+    width: 328px;
+}
+.right-top{
+height: 313px;
+width: 328px;
+background-color: white;
+}
+.svg-box{
+    display: flex;
+    padding-left:59px;
+    padding-bottom: 70px;
+    flex-direction: column;
+}
+.right-top-content{
+    display: flex;
+    align-items: center;
+}
+.svg-content{
+    padding-left:30px;
+}
+.right-bottom {
+    margin-top:50px;
+    padding-left: 33px;
+}
+.right-bottom p{
+    font-size: 20px;
+}

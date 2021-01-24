@@ -1,0 +1,22 @@
+.right-option{
+    width:262px;
+    height:399px;
+    margin-top: 35px;
+    background-color: white;
+}
+.right-image{
+    width:264px;
+    height: 168px;
+}
+.rightoption-content{
+    margin-top:28px;
+    margin-left: 32px;
+}
+.super{
+    font-size: 30px;
+    line-height:36px;
+    letter-spacing: 0.25px;
+}
+a{
+    color: #F88822;
+}

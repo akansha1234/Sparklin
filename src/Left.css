@@ -1,0 +1,13 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    flex:0.2;
+    /* border:1px solid black; */
+    /* width:225px; */
+    padding-left:35px;
+    padding-right: 47px;
+    padding-top:68px;
+    background-color: white;
+    height:1104px;
+}

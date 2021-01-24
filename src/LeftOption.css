@@ -1,0 +1,31 @@
+.left-options{
+    display: contents;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid#E3EAF2;
+    width:143px;
+}
+.plus{
+    color:#F88822 !important;
+}
+.accordion{
+    box-shadow: none;
+}
+.sidebar{
+    display: flex;
+font-weight:600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.3px;
+color:#4B4B4B;
+}
+
+.sidebar-line p{
+    width:143px;
+    text-align: center;
+    list-style-type: none;
+    color:#4B4B4B;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.3px;
+}
