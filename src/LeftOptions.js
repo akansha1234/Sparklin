@@ -1,16 +1,3 @@
-// import React from 'react'
-// import "./LeftOption.css"
-// function LeftOptions({Icon,title}) {
-//     return (
-//         <div className="left-options">
-//             {Icon && <Icon className="plus"/>}
-//             <p>{title}</p>
-//         </div>
-//     )
-// }
-
-// export default LeftOptions
-
 
 import React from 'react';
 import "./LeftOption.css";
@@ -18,23 +5,19 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
-
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     width: '100%',
-//   },
-//   heading: {
-//     fontSize: theme.typography.pxToRem(15),
-//     fontWeight: theme.typography.fontWeightRegular,
-//   },
-// }));
+import { makeStyles } from '@material-ui/core/styles';
+const useStyles = makeStyles({
+ root:{
+   boxShadow:"none",
+ },
+});
 
 export default function LeftOptions({Icon,title}) {
-  //const classes = useStyles();
+  const classes = useStyles();
 
   return (
     <div className="left-options">
-      <Accordion>
+      <Accordion className={classes.root}>
         <AccordionSummary
           aria-controls="panel1a-content"
           id="panel1a-header"
